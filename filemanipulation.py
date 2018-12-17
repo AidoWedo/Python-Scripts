@@ -1,3 +1,6 @@
+# Richard Bevan
+# Take a File specified by f and create a file under rules and then take that file modify date and time to be todays data and time
+# spit that file out 
 #!/usr/bin/env python
 import os,sys,win32serviceutil,time,win32service,re,shutil,random,datetime,time,socket,struct,logging,logging.handlers,_mssql,subprocess
 from colorama import init
